@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope'
+}
+
+.Header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.subheading1 {
+    color:#7f56d9;
+}
+
+.subheading2 {
+    font-weight: 600;
+}
+
+.subheading3 {
+    display: block;
+    width: 62%;
+    margin: auto;
+    color: #6f788c;
+}
+
+.sec_buttons {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    /* background-color: rgb(153, 86, 215); */
+}
+
+.button {
+    padding:10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color:#7f56d9;
+    color: white;
+}
+
+.button1 {
+    background-color: white;
+    border: #b5bbc8 solid 1px; 
+    color: black;
+}
+
+
+/* =================================================================*/
+
+section {
+    /* background-color: lawngreen; */
+}
+.memebers {
+    width: 85%;
+    /* background-color: aquamarine; */
+    padding: 10px;
+    margin: auto;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.memebers h3, .memebers h4 {
+    margin: 6px;
+}
+.member {
+    text-align: center;
+    border: #b5bbc8 solid 1px;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 60%;
+    background-color: #f9fafb;
+}
+
+.memebers > div:nth-child(2){
+    background-color: #7f56d9;
+}
+.memebers > div:nth-child(2) .name, .memebers > div:nth-child(2) .desc, .memebers > div:nth-child(2) .social i{
+    color: white;
+}
+
+.memebers > div:nth-child(2) .position {
+    color: #b5bbc8;
+}
+.member__img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.name {
+    /* background-color: khaki; */
+    font-weight: 500;
+}
+
+.position{
+    /* background-color: darkcyan; */
+    color: #7f56d9;
+}
+
+.desc {
+    /* background-color: #6f788c; */
+    margin-bottom: 15px;
+    color: #b5bbc8;
+    font-size: 15px;
+}
+
+.social {
+    /* background-color: rgb(153, 86, 215); */
+}
+
+.social i {
+    color: #b5bbc8;
+    margin-left: 5px;
+    font-size: 18px;
+}
